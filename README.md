@@ -88,6 +88,18 @@ The data file politicians_by_country_SEPT_2022 csv has the following columns wit
 
 # Research Implications
 
+The three questions that I have answered include the following:
+
+1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+
+ --  If you were to use this data to train a model to generate new data, the results would be biased and misleading. This is because the data is limited and does not include all possible values. For example, the data does not include any values for people who are not employed. This would create a biased model that would only generate data for people who are employed. Similarly If a company was considering using this data to make business decisions, they might come to inaccurate conclusions about customer behavior. For instance, they might think that customers only shop on weekdays, when in reality there are simply fewer data points for weekends. This could lead to the company making poor decisions about staffing, advertising, and promotions. Additionally, the data does not include information about why customers are returning items, so the company would not be able to make informed decisions about how to improve its products or services.
+ 
+ 2. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
+ 
+ -- Yes, I can think of a realistic data science research situation where using these data might still be appropriate and useful, despite its inherent limitations and biases. For example, if we were researching a new product or service and wanted to determine whether it was more popular with men or women, we could use these data to train a model that would predict the gender of new users. However, we would need to be aware of the limitations of the data and account for them in our analysis. It is possible that despite the inherent limitations and biases of this data, it could still be used for training a model, performing hypothesis-driven research, or making business decisions. However, it is important to note that the results of any analysis using this data may be limited in accuracy and may not be representative of the true population.
+ 
+ 3. 
+ 
 ## License
 
 This code is available under the [MIT License](LICENSE)
