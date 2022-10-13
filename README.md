@@ -1,6 +1,6 @@
 # Human Centered Data Science - Homework_2
 
-#About the Project - Considering Bias in Data
+# About the Project - Considering Bias in Data
 The repository contains the code and the data to reproduce the results and explore the concept of bias in data using Wikipedia articles. As a part of this project, we have considered articles on political figures from different countries. We combined a dataset of Wikipedia articles with a dataset of country populations , and use a machine learning service called ORES to estimate the quality of each article. Our analysis covers the politicians on Wikipedia and the quality of articles about the politicians varying among countries. The analysis consist of a series of tables that show:
 
 1. The countries with the greatest and least coverage of politicians on Wikipedia compared to their population.
@@ -21,7 +21,7 @@ The relevant APIs for this repository have been mnentioned below:
 
 
 ## Directory Structure
-The directory structure for the repository has been shown below in the form of a tree.
+The directory structure for the repository has been shown below in the form of a tree:
 
 ```
 
@@ -44,7 +44,7 @@ The directory structure for the repository has been shown below in the form of a
 ```
 
 ### Data Description
-The data description of the files included in this repository with the column description os shown as below:
+The data description of the files included in this repository with the column description is shown as below:
 
 ### Name of the file : population_by_country_2022_cleaned.csv
 The data file population_by_country_2022_cleaned csv has the following columns with their descriptions
@@ -89,7 +89,23 @@ The data file politicians_by_country_SEPT_2022 csv has the following columns wit
 | `article_quality`               |Quality of an article                                      |
 | `country`               | Name of the country                                           |
 | `region`                   | Name of the region within the continent where the country lies                   |
-| `population`                    |  Population of the country (in millions)                                     |
+| `population`                    |  Population of the country (in millions)   
+
+# Input Data:
+The input data for the analysis include the 2 csv files that are present in the data folder with the names 
+- population data (population_by_country_2022_cleaned.csv)
+- Politicians data (politicians_by_country.SEPT.2022.csv) 
+
+# Output Data:
+The output folder consists of the files that are generated as a part of this analyis(csv and txt files) and some are part of the intermediate state (JSON files). 
+The files that are the part of the output are mentioned below:
+- wp_countries-no_match.txt
+- wp_politicians_by_country.csv
+
+The files that are intermediate and are stored in the output folder are mentioned below:
+- article_quality.json
+- article_revisions_test.json
+
 
 # Research Implications
 
