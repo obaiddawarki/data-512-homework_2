@@ -57,7 +57,9 @@ The data file population_by_country_2022_cleaned csv has the following columns w
 ### Name of the file : politicians_by_country_SEPT_2022.csv
 
 The data file politicians_by_country_SEPT_2022 csv has the following columns with their descriptions
-name url country
+- name 
+- url 
+- country
 
 | Column                    | Description                                                                        |
 | ------------------------- | -----------------------------------------------------------------------------------|
@@ -69,7 +71,12 @@ name url country
 ### Name of the file : wp_politicians_by_country.csv
 
 The data file politicians_by_country_SEPT_2022 csv has the following columns with their descriptions
-article_title revision_Id article_quality country region population
+- article_title 
+- revision_Id 
+- article_quality 
+- country 
+- region 
+- population
 
 | Column                    | Description                                                                        |
 | ------------------------- | -----------------------------------------------------------------------------------|
