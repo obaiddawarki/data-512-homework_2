@@ -73,7 +73,7 @@ article_title	revision_Id	article_quality	country	region	population
 | `article_quality`               |Quality of an article                                      |
 | `country`               | Name of the country                                           |
 | `region`                   | Name of the region within the continent where the country lies                   |
-| `population`                    |  Population of the country (in millions)                                           |
+| `population`                    |  Population of the country (in millions)                                     |
 
 # Research Implications
 
