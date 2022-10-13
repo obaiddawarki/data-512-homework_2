@@ -47,11 +47,7 @@ The directory structure for the repository has been shown below in the form of a
 The data description of the files included in this repository with the column description is shown as below:
 
 ### Name of the file : population_by_country_2022_cleaned.csv
-The data file population_by_country_2022_cleaned csv has the following columns with their descriptions
-- continent	
-- region	
-- country	
-- population
+The schema consists of countries, region and population for each country/region. The data file population_by_country_2022_cleaned csv has the following columns with their descriptions
 
 | Column                    | Description                                                                        |
 | ------------------------- | -----------------------------------------------------------------------------------|
@@ -61,10 +57,7 @@ The data file population_by_country_2022_cleaned csv has the following columns w
 | `population`               | Population of the country (in millions)                                           |
 
 ### Name of the file : politicians_by_country_SEPT_2022.csv
-The data file politicians_by_country_SEPT_2022 csv has the following columns with their descriptions
-- name 
-- url 
-- country
+Consists of crawled Wikipedia article pages about politicians different countries. The data file politicians_by_country_SEPT_2022 csv has the following columns with their descriptions
 
 | Column                    | Description                                                                        |
 | ------------------------- | -----------------------------------------------------------------------------------|
@@ -74,13 +67,8 @@ The data file politicians_by_country_SEPT_2022 csv has the following columns wit
 
 
 ### Name of the file : wp_politicians_by_country.csv
-The data file politicians_by_country_SEPT_2022 csv has the following columns with their descriptions
-- article_title 
-- revision_Id 
-- article_quality 
-- country 
-- region 
-- population
+This file consists of data output with politicians mapped to countries and region, basically the data table used for analysis. The data file wp_politicians_by_country.csv has the following columns with their descriptions
+
 
 | Column                    | Description                                                                        |
 | ------------------------- | -----------------------------------------------------------------------------------|
