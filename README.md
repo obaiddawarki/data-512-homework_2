@@ -42,7 +42,10 @@ The directory structure for the repository has been shown below in the form of a
 
 ### Name of the file : population_by_country_2022_cleaned.csv
 The data file population_by_country_2022_cleaned csv has the following columns with their descriptions
-continent	region	country	population
+- continent	
+- region	
+- country	
+- population
 
 | Column                    | Description                                                                        |
 | ------------------------- | -----------------------------------------------------------------------------------|
