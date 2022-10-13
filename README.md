@@ -40,7 +40,7 @@ The directory structure for the repository has been shown below in the form of a
 
 ### Data Description
 
-# Name of the file : population_by_country_2022_cleaned
+### Name of the file : population_by_country_2022_cleaned
 The data file population_by_country_2022_cleaned csv has the following columns with their descriptions
 continent	region	country	population
 
@@ -51,7 +51,7 @@ continent	region	country	population
 | `country`                    | Name of the country                                                             |
 | `population`               | Population of the country (in millions)                                           |
 
-# Name of the file : politicians_by_country_SEPT_2022
+### Name of the file : politicians_by_country_SEPT_2022
 
 The data file politicians_by_country_SEPT_2022 csv has the following columns with their descriptions
 continent	region	country	population
@@ -64,7 +64,7 @@ continent	region	country	population
 
 article_title	revision_Id	article_quality	country	region	population
 
-# Name of the file : wp_politicians_by_country
+### Name of the file : wp_politicians_by_country
 
 | Column                    | Description                                                                        |
 | ------------------------- | -----------------------------------------------------------------------------------|
