@@ -97,14 +97,15 @@ The input data for the analysis include the 2 csv files that are present in the 
 - Politicians data (politicians_by_country.SEPT.2022.csv) 
 
 # Output Data:
-The output folder consists of the files that are generated as a part of this analyis(csv and txt files) and some are part of the intermediate state (JSON files). 
-The files that are the part of the output are mentioned below:
-- wp_countries-no_match.txt
-- wp_politicians_by_country.csv
+The output folder consists of the files that are generated as a part of this analyis(csv and txt files) and some are part of the intermediate state (JSON files)
 
-The files that are intermediate and are stored in the output folder are mentioned below:
-- article_quality.json
-- article_revisions_test.json
+The files that are the part of the output are mentioned below:
+- wp_countries-no_match.txt (All countries for which population dataset does not have an entry for the equivalent Wikipedia country, or vice-versa)
+- wp_politicians_by_country.csv (Refined data output with politicians mapped to countries and region, basically the data table used for analysis)
+
+The files that are intermediate and are genearted in between as the part of the analysis are stored in the output folder are mentioned below:
+- article_quality.json (JSON file containing the article quality for the respective articles)
+- article_revisions_test.json (JSON file containing the article revision id for the respective articles)
 
 
 # Research Implications
