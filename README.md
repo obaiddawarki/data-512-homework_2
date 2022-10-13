@@ -96,19 +96,18 @@ The files that are intermediate and are genearted in between as the part of the 
 - article_revisions_test.json (JSON file containing the article revision id for the respective articles)
 
 
-# Research Implications
+# Research Implications:
+One of the lessons that I learned from the dataset is that it is very important to have a domain knowledge when we analyze a given dataset.There is a big difference with the numner of wilikpedia articles of politicans per million population on the regional level. The data that was collected is from the English Wikipedia that constitutes of the english articles and hence there is a potential bias towards the english speaking regions. This could be one of the reasons for the big differences at the regional level.
 
-The three questions that I have answered include the following:
+Q1: What (potential) sources of bias did you discover in the course of your data processing and analysis?
+One of the bias is the language spoken in the country. If we have more English speakers in the country, there is a maximum likelihood for the more articles for that country. Another potentail bias that could be seen is that the countries where the access for internet is good contribute more to the wikipedia and hence as such result in more articles.
 
-1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+Q2: What might your results suggest about (English) Wikipedia as a data source?
+The results suggest that there is more data on Wikipedia for the English speaking politicans and as such the policymakers, researchers shoukd keep this in mind before imolemnting any policy as the data that leads to make the conclusion about any region would be biased towards the one section of the politicans (English speakers).
 
-If you were to use this data to train a model to generate new data, the results would be biased and misleading. This is because the data is limited and does not include all possible values. For example, the data does not include any values for people who are not employed. This would create a biased model that would only generate data for people who are employed. Similarly If a company was considering using this data to make business decisions, they might come to inaccurate conclusions about customer behavior. For instance, they might think that customers only shop on weekdays, when in reality there are simply fewer data points for weekends. This could lead to the company making poor decisions about staffing, advertising, and promotions. Additionally, the data does not include information about why customers are returning items, so the company would not be able to make informed decisions about how to improve its products or services.
- 
- 2. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
- 
-Yes, I can think of a realistic data science research situation where using these data might still be appropriate and useful, despite its inherent limitations and biases. For example, if we were researching a new product or service and wanted to determine whether it was more popular with men or women, we could use these data to train a model that would predict the gender of new users. However, we would need to be aware of the limitations of the data and account for them in our analysis. It is possible that despite the inherent limitations and biases of this data, it could still be used for training a model, performing hypothesis-driven research, or making business decisions. However, it is important to note that the results of any analysis using this data may be limited in accuracy and may not be representative of the true population.
- 
- 3. 
+Q3: Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+A realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data, is if the data is used to study a phenomenon that is not well represented by the data. For example, if the data is used to study the effect of a new medication on a disease, but the data only includes a small number of patients with the disease, the results may be biased or misleading. Similar is the case in our dataset where the data was biased towards the English speaking politicans. Thus due to the inherent gaps and limitations of the data, using these data to train a model, perform a hypothesis-driven research, or make business decisions might create biased or misleading results.
+
  
 ## License
 
