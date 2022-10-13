@@ -10,9 +10,14 @@ The repository contains the code and the data to reproduce the results and explo
 
 The data analysis for this project includes data acquisition, data processing and analyzing the results.This homework was the part of Human Centered Data Science at the University of Washington - Seattle for Autumn 2022. The project contains all the details to reproduce this analysis independently on any machine without the use of any specific software package.
 
-## API Documentation
+## Data Set Source
 The data that lists Wikipedia articles of politicians was crawled to generate a list of Wikipedia article pages about politicians from a wide range of countries using the API: [Category:Politicians by nationality](https://en.wikipedia.org/wiki/Category:Politicians_by_nationality). This data is available in the data folder with the file name as politicians_by_country.
 To get the population dataset, we have used the [world population data sheet](https://www.prb.org/international/indicator/population/table)
+
+## Relevant API
+The relevant APIs for this repository have been mnentioned below:
+1. [ORES](https://www.mediawiki.org/wiki/ORES)
+2. [Wikimedia Foundation REST API terms of use](https://www.mediawiki.org/wiki/Wikimedia_REST_API#Terms_and_conditions)
 
 
 ## Directory Structure
